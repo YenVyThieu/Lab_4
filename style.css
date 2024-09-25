@@ -1,0 +1,139 @@
+header {
+    margin: 0%;
+    padding: 10px;
+    background-color: #6CB4EE;
+    box-shadow: 7px 4px #1F305E;
+    text-decoration: aliceblue dashed;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #5072A7;
+    text-shadow: 2px blue;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-name: Slide;
+}
+
+footer {
+    margin: 0%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #6CB4EE;
+    box-shadow: 7px 4px rgb(0, 21, 255);
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-name: Slide;
+}
+
+h5 {
+    color: #002244;
+    font-size: larger;
+}
+
+section {
+    background-color: #F0F8FF;
+    margin: 0%;
+    padding-left: 250px;
+    box-shadow: 7px 4px #7CB9E8;
+    padding-bottom: 10px;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-name: Slide;
+}
+
+nav {
+    height: 230px;
+    position: fixed;
+    width: 220px;
+    margin-top: 10%;
+    margin-left: 10px;
+    box-shadow: inset blue;
+    background-color: rgb(193, 233, 255);
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-name: Slide2;
+}
+
+table {
+    text-align: left;
+    border: 0px;
+    padding-left: 10px;
+    word-spacing: 5px;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-name: Slide;
+}
+
+tr {
+    border: 2px solid black;
+    word-spacing: 5px;
+}
+
+a:hover {
+    background-color: rgb(216, 216, 255);
+    color: blueviolet;
+    text-decoration: dashed;
+    transition: ease-in;
+}
+
+a {
+    color: blue;
+    font-size: large;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0039a6;
+    text-shadow: 2px blue;
+    font-size: large;
+    text-decoration: dashed;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #13274F;
+    text-shadow: 2px blue;
+}
+
+h4,
+ul,
+ol {
+    color: #0a2351;
+    text-shadow: 2px blue;
+    font-size: large;
+}
+
+p {
+    font-size: large;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-name: Slide2;
+}
+
+@keyframes Slide {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+header {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-name: Slide;
+}
+@keyframes Slide2 {
+    from {
+        transform: translateX(-50px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
